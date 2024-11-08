@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login / Register | Omnifood</title>
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="row">
+          <img
+            src="./resources/img/logo-white.png"
+            alt="Omnifood logo"
+            class="logo"
+          />
+          <ul class="main-nav">
+            <li><a href="index.html">Main</a></li>
+          </ul>
+          <div class="hero-text-box">
+            <h1>Login / Register</h1>
+            <h3>Access your account or create a new one</h3>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-auth">
+      <div class="row auth-container">
+        <!-- Login Section -->
+        <div class="auth-box">
+          <h2>Login</h2>
+          <form action="#" method="post" class="auth-form">
+            <label for="login-email">Email:</label>
+            <input
+              type="email"
+              id="login-email"
+              name="login-email"
+              required
+              placeholder="Your Email"
+            />
+            <label for="login-password">Password:</label>
+            <input
+              type="password"
+              id="login-password"
+              name="login-password"
+              required
+              placeholder="Your Password"
+            />
+            <button type="submit" class="btn btn-full">Login</button>
+          </form>
+        </div>
+
+        <!-- Registration Section -->
+        <div class="auth-box">
+          <h2>Register</h2>
+          <form action="#" method="post" class="auth-form">
+            <label for="register-name">Name:</label>
+            <input
+              type="text"
+              id="register-name"
+              name="register-name"
+              required
+              placeholder="Your Name"
+            />
+            <label for="register-email">Email:</label>
+            <input
+              type="email"
+              id="register-email"
+              name="register-email"
+              required
+              placeholder="Your Email"
+            />
+            <label for="register-password">Password:</label>
+            <input
+              type="password"
+              id="register-password"
+              name="register-password"
+              required
+              placeholder="Choose a Password"
+            />
+            <button type="submit" class="btn btn-full">Register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="footer-nav">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col span-1-of-2">
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <p>Copyright &copy;2024 Sidun. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
